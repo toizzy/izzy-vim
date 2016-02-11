@@ -6,6 +6,6 @@
 
 4) Add the line runtime .vimrc
 
-~~ Now the vimrc is hooked up and things like semicolon should work. Plugins should not ~~
+~~ Now the vimrc is hooked up and things like semicolon should work. Plugins should not
 
 5) Get vundle: git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
