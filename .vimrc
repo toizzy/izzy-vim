@@ -34,6 +34,7 @@ nnoremap j gj
 nnoremap k gk
 nnoremap <space> zz
 noremap :w :w <bar> :pc
+inoremap jk <esc>
 
 command Pdf :! pdflatex %
 command Wc  :! detex % | wc -w
