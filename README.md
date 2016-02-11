@@ -8,7 +8,7 @@
 
 ~~ Now the vimrc is hooked up and things like semicolon should work. Plugins should not
 
-5) Get vundle: git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+5) Get vundle: git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim <---- probably don't need this! We'll see in the next vm.
 
 6) Uncomment the line that says "filetype off" at the top of ~/.vim/.vimrc
 
