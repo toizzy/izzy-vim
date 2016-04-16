@@ -17,3 +17,6 @@
 8) Comment out "filetype off" at the top of ~/.vim/.vimrc
 
 ~~ Now plugins should work, YouCompleteMe should not (needs to be compiled).
+
+9) Go to .vim/bundle/YouCompleteMe and run ./instal --clang-compiler
+   Errors may be due to lack of g++ or python-dev
