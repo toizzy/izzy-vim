@@ -1,6 +1,6 @@
 1) Clone repository.
 
-2) Rename it from izzy_vim to .vim
+2) Rename it from izzy_vim to .vim. Careful if there already exists a .vim file that you don't move it inside.
 
 3) Create a .vimrc file in ~. 
 
