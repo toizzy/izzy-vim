@@ -36,5 +36,8 @@ nnoremap <space> zz
 noremap :w :w <bar> :pc
 inoremap jk <esc>
 
+set colorcolumn=80
+highlight ColorColumn ctermbg=0 guibg=lightgrey
+
 command Pdf :! pdflatex %
 command Wc  :! detex % | wc -w
