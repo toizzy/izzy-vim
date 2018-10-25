@@ -41,3 +41,4 @@ highlight ColorColumn ctermbg=0 guibg=lightgrey
 
 command Pdf :! pdflatex %
 command Wc  :! detex % | wc -w
+command Py :! echo "---------------------------------NEW PYTHON RUN--------------------------------"; python  %
