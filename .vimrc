@@ -1,21 +1,21 @@
 set nocompatible              " for Vundle be iMproved, required
 " filetype off                  " required for Vundle
 
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
-Plugin 'gmarik/Vundle.vim'
-Plugin 'scrooloose/syntastic'
-Plugin 'Valloric/YouCompleteMe'
-Plugin 'kien/ctrlp.vim'
-"now turn filetype off, run :PluginInstall
-
-call vundle#end()
-
-set runtimepath^=~/.vim/bundle/ctrlp.vim
-"uncomment this if you don't want autocompletion
-"let g:ycm_min_num_of_chars_for_completion=99
+"" set the runtime path to include Vundle and initialize
+"set rtp+=~/.vim/bundle/Vundle.vim
+"call vundle#begin()
+"
+"Plugin 'gmarik/Vundle.vim'
+"Plugin 'scrooloose/syntastic'
+"Plugin 'Valloric/YouCompleteMe'
+"Plugin 'kien/ctrlp.vim'
+""now turn filetype off, run :PluginInstall
+"
+"call vundle#end()
+"
+"set runtimepath^=~/.vim/bundle/ctrlp.vim
+""uncomment this if you don't want autocompletion
+""let g:ycm_min_num_of_chars_for_completion=99
 
 
 set expandtab
@@ -41,4 +41,5 @@ highlight ColorColumn ctermbg=0 guibg=lightgrey
 
 command Pdf :! pdflatex %
 command Wc  :! detex % | wc -w
-command Py :! echo "---------------------------------NEW PYTHON RUN--------------------------------"; python  %
+command Py2 :! echo "---------------------------------NEW PYTHON RUN--------------------------------"; python  %
+command Py :! echo "---------------------------------NEW PYTHON RUN--------------------------------"; python3  %
