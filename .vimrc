@@ -39,6 +39,9 @@ inoremap jk <esc>
 set colorcolumn=80
 highlight ColorColumn ctermbg=0 guibg=lightgrey
 
+set foldmethod=indent
+set foldlevel=100
+
 command Pdf :! pdflatex %
 command Wc  :! detex % | wc -w
 command Py2 :! echo "---------------------------------NEW PYTHON RUN--------------------------------"; python  %
