@@ -47,6 +47,9 @@ highlight ColorColumn ctermbg=0 guibg=lightgrey
 " Make the last line appear in part, not as @ signs
 set display+=lastline
 
+set foldmethod=indent
+set foldlevel=100
+
 command Pdf :! pdflatex %
 command Wc  :! detex % | wc -w
 command Py2 :! echo "---------------------------------NEW PYTHON RUN--------------------------------"; python  %
