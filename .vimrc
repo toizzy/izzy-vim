@@ -22,6 +22,11 @@ set expandtab
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
+"Not sure I like soft set softtabstop=4
+
+autocmd Filetype java setlocal tabstop=2
+autocmd Filetype java setlocal shiftwidth=2
+"Not sure I like soft autocmd Filetype java setlocal softtabstop=2
 
 set number
 set autoindent
@@ -46,3 +51,6 @@ command Pdf :! pdflatex %
 command Wc  :! detex % | wc -w
 command Py2 :! echo "---------------------------------NEW PYTHON RUN--------------------------------"; python  %
 command Py :! echo "---------------------------------NEW PYTHON RUN--------------------------------"; python3  %
+
+au BufRead,BufNewFile *.tex set filetype=tex
+
